@@ -46,7 +46,7 @@ const Footer = () => {
 
 
 
-    </div></footer>
+    </div>&copy | 2023 Made by Emad</footer>
   )
 }
 
