@@ -1,0 +1,71 @@
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #0e345a;
+    padding: 100px 250px;
+    
+}
+footer {
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #0e345a;
+
+}
+.col {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.col p {
+    color: #fff;
+    font-size: 16px;
+}
+.col h1 {
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.col a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.col .hala {
+    padding-bottom: 0;
+}
+
+.col .firs {
+    padding-bottom: 55px;
+}
+
+.col input {
+    padding: 10px 20px;
+    text-align: center;
+}
+.col input ::placeholder {
+    text-align:center;
+}
+.col button {
+    padding: 10px 68px;
+    margin-top: 10px;
+    color: #0e345a;
+    font-size: 15px;
+    transition: 1s ease;
+}
+
+.col button:hover {
+    color: #fff;
+    background-color: #0e345a;
+   
+
+}
+

@@ -1,0 +1,122 @@
+/* BookStore.css */
+.bookstore-container {
+    display: grid;
+    grid-template-columns: 20% 80%; /* 80% for books, 20% for filter */
+    gap: 20px; /* Optional: Add gap between sections */
+    padding: 30px 100px;
+  }
+  
+  .filter {
+    background-color: #fff; /* Set the background color for the filter */
+    padding: 0px 30px; /* Add padding to the filter */
+    margin: 0;
+    width: 300px;
+  }
+  
+  .book-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Optional: Add gap between books */
+  }
+  
+  .single-book {
+    border: 1px solid #ddd; /* Optional: Add a border to each book */
+    padding: 15px; /* Optional: Add padding to each book */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    transition: 4s ease;
+  }
+  
+  /* Add other styles as needed for book images and details */
+  .book-img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .hide {
+    display: none;
+    transition: 3s ease;
+
+  }
+
+  .single-book:hover .hide {
+    display:inline;
+    transition: 2s ease;
+  }
+
+.info p {
+    color: #0e345a;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info h1 {
+    color: #0e345a;
+    font-size: 40px;
+    text-align: center;
+}
+
+.book-details {
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.bin {
+  transition: 1s ease-in;
+  width: 100%; /* Make the button the same width as the parent .single-cart */
+  padding: 8px 60px; 
+}
+
+.book-photo {
+  position: relative;
+  display: inline-block;
+}
+
+.quick-view {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Add a background color for better readability */
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  transition: 1s ease;
+}
+
+
+.hi {
+ margin: 10px;
+ 
+}
+
+
+.single-book .bin {
+  background-color: #0e345a;
+  color: #fff;
+  margin: 0px;}
+
+.filter hr {
+ text-align: left;
+  margin-top: 40px;
+  width: 200px;
+  color: #0e345a;
+  padding: 0;
+  margin-left: 0;
+
+  
+}
+
+.filter h2 {
+  color: #0e345a;
+}
+
+label {
+  color: #0e345a;
+}
+

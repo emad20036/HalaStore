@@ -1,0 +1,57 @@
+.llo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.llo a {
+    text-decoration: none;
+    color: #0e345a;
+    transition: 1s linear;
+}
+
+.llo a:hover {
+    color: #7c7e81;
+    
+}
+
+.llo input {
+    width: 400px;
+    background-color: #f0f0f0;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0e345a;
+
+}
+
+.cona {
+    position:static;
+    /* margin: 20px 3%; */
+    box-sizing: border-box;
+}
+
+.lll {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.immm {
+    height: 500px;
+    margin-left: 300px;
+    margin-right: 0;
+
+}
+
+.cona h2 {
+    color: #0e345a;
+    text-align: center;
+}

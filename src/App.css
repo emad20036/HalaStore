@@ -1,0 +1,15 @@
+section {
+  margin: 0px;
+  padding: 0px 100px;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.mainimg {
+  width: 100%;
+}
+
+.body {
+  scroll-behavior: smooth;
+}

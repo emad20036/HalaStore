@@ -1,0 +1,51 @@
+.About-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.About-title h3 {
+    color:#0e345a;
+    font-size: 25px;
+    
+}
+
+.About-title h1 {
+    color:#0e345a;
+    font-size: 65px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.huge {
+    position: relative;
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+
+.imm {
+    height: 600px;
+
+}
+.about-img {
+    position: absolute;
+    top: -10%;
+    left: 35%;
+}
+
+.about-text {
+    position: absolute;
+    border: 15px solid #0e345a;
+    background-color: #f0f0f0;
+    padding: 20px 20px;
+    top: 30%;
+    left: 15%;
+}
+
+.about-text p {
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}

@@ -1,0 +1,74 @@
+.det {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.bookimg {
+    max-height: 450px;
+    margin: 50px;
+    box-shadow: 16px 8px 8px rgba(0, 0, 0, 0.4);
+}
+
+.event-info {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.event-img {
+    padding: 40px 20px;
+    background-color: #e8de07;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #0e345a;
+}
+
+.event-info p {
+    color: #0e345a;
+    font-size: 16px;
+    font-weight: bold;
+}
+.event-info h4 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0e345a;
+}
+
+.det h1 {
+    color:#0e345a;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.det p {
+    color: #0e345a;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Now {
+    padding: 10px 50px;
+    border: 1px solid #0e345a;
+    color: #0e345a;
+    margin-top: 30px;
+    background-color: #fff;
+    font-size: 18px;
+    transition: 1s ease;
+}
+
+.Now:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #0e345a;
+}

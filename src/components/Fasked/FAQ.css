@@ -1,0 +1,59 @@
+.faq-section {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  .faq-question {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0e345a;
+  }
+  
+  .faq-answer {
+    padding: 10px 30px;
+    animation: fadeIn 0.5s ease;
+    text-align: center;
+    color: #0e345a;
+
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px); /* Add a slight upward movement */
+    }
+    50% {
+      opacity: 0.5; /* Pause the animation halfway through */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Reset the position */
+    }
+  }
+
+  .Lol {
+    width: 80%;
+    margin-bottom: 1%;
+    height: 120%;
+    padding-bottom: 200px;
+    position: static;
+    box-sizing: border-box;
+    margin-left: 100px;
+    text-align: center;
+  }
+.ooo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+
+  

@@ -1,0 +1,246 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+.Second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.ol p {
+    font-weight: 900;
+    font-size: 30px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.ol {
+    border: 1px solid #0e345a;
+    padding: 0px 10px;
+    background-color: #0e345a;
+}
+
+.lo p {
+    font-weight: 700;
+    color :#0e345a;
+    margin: 0px;
+    padding: 7.5px 40px;
+    font-style: bolder;
+}
+.lo {
+    border: 2px solid #0e345a;
+    margin-left: 0px;
+    transition: 2s ease;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #0e345a;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+
+.nav-link:hover {
+    color: #9ca2a8;
+    font-style: bolder;
+}
+
+nav {
+  margin: 0px;
+  padding: 30px 100px;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.cartit a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartvisi {
+    position: absolute;
+    top: 50px; /* Adjust the distance from the top of the navbar */
+    right: 20px; /* Adjust the distance from the right of the navbar */
+    background-color: #fff; /* Background color for the cart */
+    border: 1px solid #ddd; /* Border around the cart */
+    padding: 10px;
+    z-index: 1; /* Ensure it appears above other content */
+  }
+
+  .ico {
+    background-color: #fff;
+    border: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column-reverse;
+  }
+
+  
+
+  /* Default styles for large screens */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin: 0;
+    padding: 30px 100px;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+  
+  .Second {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  /* Styles for smaller screens (e.g., mobile devices) */
+  @media screen and (max-width: 768px) {
+    .logo {
+      display: none; /* Hide the logo on small screens */
+    }
+  
+    .Second {
+      flex-direction: column; /* Stack navigation links in a column */
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .nav-link {
+      margin: 10px 0;
+      display: none; /* Hide navigation links by default on small screens */
+    }
+  
+    /* Hamburger button styles */
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+  
+    .bar {
+      width: 30px;
+      height: 4px;
+      background-color: #0e345a;
+      margin: 4px auto;
+      transition: 0.4s;
+    }
+  
+    /* Show navigation links when hamburger is clicked */
+    .show-links .nav-link {
+      display: block;
+    }
+  }
+/* Default styles for large screens */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin: 0;
+    padding: 30px 100px;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+  
+  .Second {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  /* Hamburger button styles for large screens (hidden) */
+  .hamburger {
+    display: none;
+  }
+  
+  /* Styles for smaller screens (e.g., mobile devices) */
+  @media screen and (max-width: 768px) {
+    .logo {
+      display: none; /* Hide the logo on small screens */
+    }
+  
+    /* Show the navigation links by default on small screens */
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: #fff;
+      z-index: 1;
+      width: 100%;
+      transform: translateY(-100%);
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    /* Hamburger button styles for small screens (visible) */
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 2;
+    }
+  
+    .bar {
+      width: 30px;
+      height: 4px;
+      background-color: #0e345a;
+      margin: 4px 0;
+      transition: 0.4s;
+    }
+  
+    /* Show navigation links when hamburger is clicked */
+    .show-links .nav-links {
+      transform: translateY(0);
+    }
+  }
+
+#navvv {
+  padding: 10px 100px;
+}

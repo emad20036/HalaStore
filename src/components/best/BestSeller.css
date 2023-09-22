@@ -1,0 +1,174 @@
+/* BestSeller.css */
+
+/* Container styles */
+.container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+
+}
+.bookcard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+.connn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.book-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* Book card styles */
+.book {
+  width: 100%;
+  padding: 0 15px;
+}
+
+/* Customize your book card styles here */
+.bookcard {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  animation: slide 2000s linear infinite; /* Adjust the duration as needed */
+
+}
+
+.bookcover img {
+  max-width: 100%;
+  height: auto;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+/* Add to Cart button styles */
+.bi {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.bi:hover {
+  background-color: #0056b3;
+}
+
+/* Header styles */
+.bestseller {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .book-container {
+    animation-duration: 10s; /* Adjust the duration for smaller screens */
+  }
+
+  .col-lg-3 {
+    flex: 0 0 100%; /* Full-width for small screens */
+  }
+}
+/* BestSeller.css */
+
+/* Container styles */
+.container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.book-container {
+  display: inline-block;
+  animation: slide 20s linear infinite; /* Adjust the duration as needed */
+  white-space: nowrap;
+}
+
+
+/* Book card styles */
+.book {
+  width: 25%; /* Adjust the width to control the number of books displayed horizontally */
+  box-sizing: border-box;
+  padding: 0 15px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+/* Customize your book card styles here */
+.bookcard {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.bookcover img {
+  max-width: 100%;
+  height: auto;
+  
+  width: 100px;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+/* Add to Cart button styles */
+.bi {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.bi:hover {
+  background-color: #0056b3;
+}
+
+/* Header styles */
+.bestseller {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .book-container {
+    animation-duration: 10s; /* Adjust the duration for smaller screens */
+  }
+
+  .book {
+    width: 50%; /* Adjust the width for smaller screens */
+  }
+}
+/* BestSeller.css */
+.book-container {
+  display: flex;
+  overflow-x:scroll; /* Enable horizontal scrolling if needed */
+}
+
+.connn {
+  margin-right: 10px;
+  /* Optionally, you can also set a fixed width for each book container */
+  /* width: 200px; */
+}
+
