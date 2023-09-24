@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <HashRouter base="/">
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           {/* Replace the existing route with Gametable */}
@@ -42,7 +42,7 @@ function App() {
 
         </Routes>
       </Suspense>
-    </Router>
+    </HashRouter>
     
     </>
   )
