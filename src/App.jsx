@@ -12,6 +12,7 @@ import FAQ from './components/Fasked/FAQ';
 import Return from './components/Retur/Return';
 import StorePlicy from './components/Retur/StorePlicy';
 import CartPage from './components/Shoppingcart/CartPage'
+import { HashRouter } from "react-router-dom";
 
 
 
@@ -22,7 +23,6 @@ function App() {
 
   return (
     <>
-    
     <HashRouter base="/">
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
