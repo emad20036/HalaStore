@@ -1,8 +1,7 @@
 {
   "name": "onlinrstore",
   "private": false,
-  "homepage": "https://emad2003.github.io/matdev/HalaStore",
-
+  "homepage": "https://emad2003.github.io/HalaStore",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
