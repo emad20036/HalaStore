@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='foot' id='bigg'>
         <div className="col">
             <h1 className='hala'>HALA</h1>
-            <p>403 - 59 Glenforest Drive,</p><p> Halifax, NS, CA</p>
+            <p>43 - 9 Namble Drive,</p><p> Halifax, NS, CA</p>
             <p>902-568-0867</p>
             <a href="HalaStore@info.com">HalaStore@info.com</a>
 
@@ -35,6 +35,8 @@ const Footer = () => {
             <input type="text" placeholder='Enter Your Email' />
             <button>Subscribe</button>
 
+          &copy | 2023 Made by Emad
+
 
 
         </div>
@@ -46,7 +48,7 @@ const Footer = () => {
 
 
 
-    </div>&copy | 2023 Made by Emad</footer>
+    </div></footer>
   )
 }
 
