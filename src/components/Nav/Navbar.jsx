@@ -5,8 +5,7 @@ import ShoppingCart from '../Shoppingcart/Shopping';
 import { CSSTransition } from 'react-transition-group';
 import { CartContext } from '../../CartContext';
 import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 
 const Navbar = () => {
