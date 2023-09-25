@@ -61,7 +61,8 @@ const CartPage = () => {
         <hr/>
         <h3>Subtotal: ${subtotal.toFixed(2)}</h3>
         <h4>Tax 15%: ${(subtotal*15/100).toFixed(2)}</h4>
-        <h4>Estimate Delivery: Unavailable</h4>
+        <h4>Estimate Delivery:</h4>
+        <h5> Unavailable</h5>
         <hr/>
         <h2>Total : {(subtotal+subtotal*15/100).toFixed(2)}$</h2>
         <button className='checkout'>Checkout</button>
